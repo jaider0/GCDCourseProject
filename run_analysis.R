@@ -47,7 +47,8 @@ ds_complete <- rbind(ds_train_complete, ds_test_complete)
 extract <- c(1:3, grep("^.*mean", names(ds_complete)), grep("^.*std", names(ds_complete)))
 ds_tidy1 <- arrange(ds_complete[, extract], SubjectId, ActivityCode)
 
-## Create Second Tidy Dataset caclulating Average for each Activity and Subject
+## Create Second Tidy Dataset caclulating Average for each Activity and Subject and
+## Output to file "tidy2.txt"
 
 ds_tidy2 <- ddply(ds_tidy1, .(SubjectId, ActivityCode, ActivityName), colwise(mean))
 write.table(ds_tidy2, "tidy2.txt", row.names = FALSE)
