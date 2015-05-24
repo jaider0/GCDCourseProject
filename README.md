@@ -50,14 +50,14 @@ The following describes the steps executed in the R script to obtain both tidy d
 ## Conclusion
 
 By the end of the script, although only the ds_tidy2 will be outputted as a txt file, all raw, intermediate and final datasets used in this process will be available including the following R objects:
-* ds_train:		original raw measurements data for the training group
-* ds_test:		original raw measurements data for the test group
-* act_train:		original raw data for activities performed in each measurement of the train group
-* act_test:		original raw data for activities performed in each measurement of the test group
-* id_train:		original raw data for the volunteer id performing each measurement of the train group
-* id_test:		original raw data for the volunteer id performing each measurement of the test group
-* ds_train_complete:	manipulated dataset containing volunteer id, activity code, activity description and all measurements of the train group
-* ds_test_complete:	manipulated dataset containing volunteer id, activity code, activity description and all measurements of the test group
-* ds_complete:		manipulated dataset containing volunteer id, activity code, activity description and all measurements of all groups
-* ds_tidy1:		tidy dataset containing volunteer id, activity code, activity description and measurements on mean and standard deviation of all groups
-* ds_tidy2:		the output file of tidy dataset containing volunteer id, activity code, activity description and the mean of all measurements of ds_tidy1 for each combination of volunteer id and activity
+* **ds_train:**		original raw measurements data for the training group
+* **ds_test:**		original raw measurements data for the test group
+* **act_train:**		original raw data for activities performed in each measurement of the train group
+* **act_test:**		original raw data for activities performed in each measurement of the test group
+* **id_train:**		original raw data for the volunteer id performing each measurement of the train group
+* **id_test:**		original raw data for the volunteer id performing each measurement of the test group
+* **ds_train_complete:**	manipulated dataset containing volunteer id, activity code, activity description and all measurements of the train group
+* **ds_test_complete:**	manipulated dataset containing volunteer id, activity code, activity description and all measurements of the test group
+* **ds_complete:**		manipulated dataset containing volunteer id, activity code, activity description and all measurements of all groups
+* **ds_tidy1:**		tidy dataset containing volunteer id, activity code, activity description and measurements on mean and standard deviation of all groups
+* **ds_tidy2:**		the output file of tidy dataset containing volunteer id, activity code, activity description and the mean of all measurements of ds_tidy1 for each combination of volunteer id and activity

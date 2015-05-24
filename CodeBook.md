@@ -13,6 +13,7 @@ For further details regarding information on raw data files and how they were co
 * http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 A total of 8 RAW DATA files, as follows, were used in this analysis:
+
   1.1 **UCI HAR Dataset/train/X_train.txt**
   Measurements of all activities for volunteer subjects from the “train” group, with results for it’s 561 distinct variables.
 
@@ -44,6 +45,7 @@ A total of 8 RAW DATA files, as follows, were used in this analysis:
 ### ds_tidy1
 
 In the first tidy dataset, all collected data was consolidated in 1 dataset and only the relevant data for this analysis (means and standard deviations) was maintained, according to the processing steps below:
+
   2.1 Activity description (item 1.8) was added to all activity codes of train and test groups (items 1.3 and 1.6), being the activity code it self the selection criteria.
 
   2.2 A consolidated dataset was created for the training group, containing the variables volunteer id (item 1.2), activity code and description (according to item 2.1) and all the movement measurements (item 1.1). The consolidation criteria was to match the same line position in each file.
