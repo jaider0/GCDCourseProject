@@ -49,7 +49,7 @@ The following describes the steps executed in the R script to obtain both tidy d
 
 5. The second data manipulation, gives birth to our first tidy dataset, called ds_tidy1. In this step, the only measurement columns maintained from the “ds_complete” dataset are those that measure means and standard deviations. All other columns (except 1 to 3 - id, activity id and description) are removed.
 
-  5.1 The criteria used for determining the measurement columns that are maintained was those who included “mean” and “std” in it’s description. Function grep() for that manner.
+  5.1 The criteria used for determining the measurement columns that are maintained was those who included “mean” and “std” in it’s description. Function grep() was used for that manner.
 
   5.2 ds_tidy1 is sorted by SubjectId and ActivityCode
 

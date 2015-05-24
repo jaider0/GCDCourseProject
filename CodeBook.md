@@ -46,9 +46,9 @@ A total of 8 RAW DATA files, as follows, were used in this analysis:
 
 In the first tidy dataset, all collected data was consolidated in 1 dataset and only the relevant data for this analysis (means and standard deviations) was maintained, according to the processing steps below:
 
-  2.1 Activity description (item 1.8) was added to all activity codes of train and test groups (items 1.3 and 1.6), being the activity code it self the selection criteria.
+  2.1 Activity description (item 1.8) was added to all activity codes of train and test groups (items 1.3 and 1.6), being the activity code itself the combination criteria.
 
-  2.2 A consolidated dataset was created for the training group, containing the variables volunteer id (item 1.2), activity code and description (according to item 2.1) and all the movement measurements (item 1.1). The consolidation criteria was to match the same line position in each file.
+  2.2 A consolidated dataset was created for the training group, containing the variables volunteer id (item 1.2), activity code and description (according to item 2.1) and all the movement measurements (item 1.1). The consolidation criteria used here, was to match the same line position in each file.
 
   2.3 A consolidated dataset was created for the test group, containing the variables volunteer id (item 1.5), activity code and description (according to item 2.1) and all the movement measurements (item 1.4). The consolidation criteria was to match the same line position in each file.
 
@@ -68,12 +68,19 @@ In the second tidy dataset, the mean of each movement variable of ds_tidy1 (item
 **SubjectId** - Unique id number for each one of the 30 volunteer subjects used in measurements
 
 **ActivityCode** - Unique activity code:
+
    1 - WALKING
+
    2 - WALKING_UPSTAIRS
+
    3 - WALKING_DOWNSTAIRS
+
    4 - SITTING
+
    5 - STANDING
+
    6 - LAYING
+
 
 **ActivityName** - Activity description for respective activity code
                    
