@@ -129,7 +129,7 @@ In the second tidy dataset, the mean of each movement variable of ds_tidy1 (item
 
 **fBodyAcc.meanFreq…Z** - Weighted average of the frequency components to obtain a mean frequency value of Body Accelerometer signal in frequency domain for Z-axis
 
-**fBodyAccJerk.mean...X - Mean value of Body Accelerometer Jerk signal in frequency domain for X-axis
+**fBodyAccJerk.mean...X** - Mean value of Body Accelerometer Jerk signal in frequency domain for X-axis
 
 **fBodyAccJerk.mean…Y** - Mean value of Body Accelerometer Jerk signal in frequency domain for Y-axis
 
