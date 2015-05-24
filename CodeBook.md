@@ -240,4 +240,4 @@ In the second tidy dataset, the mean of each movement variable of ds_tidy1 (item
 
 *1. The variables for both ds_tidy1 and ds_tidy2 are the same. The difference between the values on each of the DS’s is that in the first case, they represent each individual measurement performed. In the latter, they represent the mean of all measurements performed for each combination of volunteer Id and Activity.*
 
-*2. The values are given in standard gravity units 'g'.
+*2. The values are given in standard gravity units 'g'.*
